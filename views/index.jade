@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h3
+    a(href="/new-user" class="btn btn-primary crear-usuario") Crear usuario
+  h1 Personas de nuestra db
+  ul 
+    each person in persons
+      li #{person.nombre} | #{person.email} | #{person.edad}

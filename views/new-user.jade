@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 Cargar nuevo usuario
+
+  form(action="/create-user" method="post")
+    div
+      label(for="email") email 
+      input(type="email", name="email" required)
+    div
+      label(for="nombre") nombre 
+      input(type="text", name="nombre" required)
+    div
+      label(for="password") password 
+      input(type="password", name="password" required)
+    div
+      button(type="submit") Enviar
