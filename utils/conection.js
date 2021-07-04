@@ -8,7 +8,7 @@ conection.connect((error) => {
     console.error(error);
     process.exit();
   }
-  console.log('conectado correctamente');
+  console.info('conectado correctamente');
 });
 
 module.exports = conection;
