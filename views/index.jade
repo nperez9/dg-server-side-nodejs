@@ -4,6 +4,10 @@ block content
   h3
     a(href="/new-user" class="btn btn-primary crear-usuario") Crear usuario
   h1 Personas de nuestra db
+  svg
+    path asd123tgs
   ul 
     each person in persons
-      li #{person.nombre} | #{person.email} | #{person.edad}
+      li #{person.nombre} | #{person.email} | #{person.edad} 
+        img(src="#{person.foto_perfil}")
+        img(src="#{person.foto_subida}")

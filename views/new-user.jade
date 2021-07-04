@@ -3,7 +3,7 @@ extends layout
 block content
   h1 Cargar nuevo usuario
 
-  form(action="/create-user" method="post")
+  form(action="/create-user" method="post" enctype="multipart/form-data")
     div
       label(for="email") email 
       input(type="email", name="email" required)
@@ -13,5 +13,11 @@ block content
     div
       label(for="password") password 
       input(type="password", name="password" required)
+    div
+      label(for="image_url") URL de la imagen 
+      input(type="text", name="image_url" required)
+    div
+      label(for="imagen") Subi una imagen
+      input(type="file", name="imagen" required)
     div
       button(type="submit") Enviar
