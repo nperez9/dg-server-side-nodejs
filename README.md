@@ -6,7 +6,7 @@ Esta api es basicamente una implentación de express generator con los siguiente
 - Soporta la carga de imagenes, tanto por url como subiendo archivos
 - Soporta archivos de configuracion .env
 
-#Instalacion:
+# Instalacion:
 Ejecutar ´npm install´
 usar comando de inicio
 
