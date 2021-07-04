@@ -7,8 +7,8 @@ Esta api es basicamente una implentación de express generator con los siguiente
 - Soporta archivos de configuracion .env
 
 # Instalacion:
-Ejecutar ´npm install´
-usar comando de inicio
+Ejecutar ´npm install´, despues de eso crear una copia de ´.env.example´, renombrarlo a ´.env´ y cargar ahi las configuraciones de su sql.
+Por ultimo usar comando de inicio
 
 # Comandos
 - Iniciar la app: ´npm start´
